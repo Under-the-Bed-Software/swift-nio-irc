@@ -12,13 +12,9 @@ SwiftNIO-IRC is a Internet Relay Chat
 
 This module contains just the protocol implementation. We also
 provide:
-- [swift-nio-irc-client](https://github.com/NozeIO/swift-nio-irc-client) - a simple IRC client lib
-- [swift-nio-irc-webclient](https://github.com/NozeIO/swift-nio-irc-webclient) -
-  a simple IRC webclient + WebSocket gateway based on this module,
-- [swift-nio-irc-eliza](https://github.com/NozeIO/swift-nio-irc-eliza) -
-  a cheap yet scalable therapist,
-- [swift-nio-irc-server](https://github.com/NozeIO/swift-nio-irc-server) -
-  a framework to build IRC servers, and MiniIRCd, a small sample server.
+- [swift-nio-irc-client](https://github.com/Under-the-Bed-Software/swift-nio-irc-client) - a simple IRC client lib
+- [BrickBot](https://github.com/Under-the-Bed-Software/BrickBot)
+    - A (basic) bot
   
 To get started with this, pull 
 [swift-nio-irc-server](https://github.com/NozeIO/swift-nio-irc-server) -
@@ -76,10 +72,6 @@ bootstrap.channelInitializer { channel in
 
 ### Who
 
-Brought to you by
-[ZeeZide](http://zeezide.de).
-We like
-[feedback](https://twitter.com/ar_institute),
-GitHub stars,
-cool [contract work](http://zeezide.com/en/services/services.html),
-presumably any form of praise you can think of.
+This software is a fork of [swift-nio-irc](https://github.com/SwiftNIOExtras/swift-nio-irc). Please send all love to [ZeeZide](http://zeezide.de/) as this was their idea and I'm just hoping to continue working on it. 
+
+
